@@ -17,8 +17,6 @@
 	#fw-feed-items-scroll-area{background-color:#ffffff; background-image:none; width: 100%; overflow:hidden;}
     
     #fw-feed-items{margin:0;padding:0; overflow:hidden; z-index:-999;}
-    
-	#fw-feed-items .fw-feed-item{margin:0;padding:20px 0;clear:both;border-bottom: 1px dashed #CCCCCC;}
     #fw-feed-items .fw-feed-item:hover{margin:0;padding:20px 0;clear:both;opacity:0.7;}/***hover時に文字やイメージを透過***/
     #fw-feed-items .fw-feed-item-url{display: block;overflow: hidden;}
     
