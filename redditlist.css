@@ -1,0 +1,8 @@
+#fw-feed-items .fw-feed-item {
+    margin: 0;
+    padding: 20px 0;
+    clear: both;
+    border-bottom: 0px solid #CCCCCC;
+    border: 1px solid #C9C9C9!important;
+    border-right-width: 8px!important;
+}
