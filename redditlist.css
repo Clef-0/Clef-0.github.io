@@ -34,7 +34,7 @@
     #fw-feed-items .fw-feed-item-link{margin:0;padding:0;font-size:12px;color:#505659;overflow:hidden;text-overflow:ellipsis;display:block;}/***非表示の場合はdisplay:none***/
 
 #fw-feed-items .fw-feed-item {
-    margin: 0;
+    margin: 5px !important;
     padding: 20px 0;
     clear: both;
     border-bottom: 0px solid #CCCCCC;
