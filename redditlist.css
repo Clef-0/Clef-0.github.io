@@ -18,7 +18,7 @@
     
     #fw-feed-items{margin:0;padding:0; overflow:hidden; z-index:-999;}
     #fw-feed-items .fw-feed-item-url{display: block;overflow: hidden;}
-    #fw-feed-items .fw-feed-item-image-module{margin:0 0 0 5px; padding:0;float:left;}
+    #fw-feed-items .fw-feed-item-image-module{margin-right: 7px; margin-bottom: 2px; padding:0;float:left;}
 	
 	
 	/**this line added by Divya**/
