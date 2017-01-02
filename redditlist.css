@@ -17,9 +17,7 @@
 	#fw-feed-items-scroll-area{background-color:#ffffff; background-image:none; width: 100%; overflow:hidden;}
     
     #fw-feed-items{margin:0;padding:0; overflow:hidden; z-index:-999;}
-    #fw-feed-items .fw-feed-item:hover{margin:0;padding:20px 0;clear:both;opacity:0.7;}
     #fw-feed-items .fw-feed-item-url{display: block;overflow: hidden;}
-    
     #fw-feed-items .fw-feed-item-image-module{margin:0 0 0 5px; padding:0;float:left;}
 	
 	
