@@ -22,7 +22,7 @@
 	
 	
 	/**this line added by Divya**/
-    #fw-feed-items .fw-feed-item-image{margin:0; padding:0;width:110px;height:100px;overflow:hidden;}
+    #fw-feed-items .fw-feed-item-image{margin:0; padding:0; border: 0 none;height: 62px;width: 62px;overflow:hidden;}
     #fw-feed-items .fw-feed-item-content-module{overflow:hidden;}
     #fw-feed-items .fw-feed-item-title{margin:0 2px 0 0;padding:0 2px 0 0;color:#1100cc;line-height:1.5;font-size:16px;overflow:hidden;display:block;}
     #fw-feed-items .fw-feed-item-description{margin:0 2px 0 0;padding:0 2px 0 0;color:#505659;word-wrap:break-word;line-height:1.5;font-size:12px;overflow: hidden;display: block;}
