@@ -470,7 +470,7 @@ Buttons
 .use-btn {
     display: inline-block;
     margin: 0 10px 10px 0;
-    padding: 20px 50px;
+    padding: 10px 50px;
     border-radius: 3px;
     background-color: #fff;
     color: #4b98a9;
@@ -483,7 +483,7 @@ Buttons
 }
 .learn-btn, .download-btn {
     display: inline-block;
-    padding: 18px 46px;
+    padding: 8px 46px;
     border: 2px solid #fff;
     border-radius: 3px;
     color: #fff;
@@ -581,7 +581,7 @@ Hero
     position: relative;
     padding: 60px 0 60px 0;
     min-height: 800px;
-    background: rgb(40, 70, 102) url('../img/hero-01.jpg') no-repeat center center;
+    background: rgb(40, 75, 82) url('../img/hero-01.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
 }
