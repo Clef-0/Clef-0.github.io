@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600" rel="stylesheet">
-<script src="//static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
+<script type="text/javascript" src="/js/feednami.js"></script>
 <link rel="stylesheet" href="css/main.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="/js/StackBlur/stackblur.js"></script>
@@ -183,7 +183,7 @@ $('.drop:has(.pagelabel)>a').css({
     "line-height": "65px"
 });
 
-const url = '//www.reddit.com/r/HaloOnline.rss'
+const url = 'https://www.reddit.com/r/HaloOnline.rss'
 feednami.loadPolyfills(function() {
   feednami.load(url)
     .then(feed => {
