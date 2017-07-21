@@ -184,6 +184,7 @@ $('.drop:has(.pagelabel)>a').css({
 });
 
 const url = 'https://www.reddit.com/r/HaloOnline.rss'
+feednami.loadPolyfills(function() {
   feednami.load(url)
     .then(feed => {
       //console.log(feed)
@@ -207,6 +208,7 @@ const url = 'https://www.reddit.com/r/HaloOnline.rss'
 		i++;
       }
     })
+  })
 </script>
 <script type="text/javascript" src="/js/blur_heroes.js"></script>
 </body>
