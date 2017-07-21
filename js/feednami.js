@@ -67,7 +67,7 @@ function _classCallCheck(instance, Constructor) {
             }
             var url = apiRoot + '/feeds/load?' + qs;
             if ('fetch'in window) {
-                return fetch(url).then(function(res) {
+                return fetch(url, {referrerPolicy: "no-referrer"}).then(function(res) {
                     return res.json()
                 }).then(function(data) {
                     if (callback) {
