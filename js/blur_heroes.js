@@ -2,7 +2,7 @@ if ($('#blurry').length > 0) {
     var canvas = document.getElementById("blurry"),
         ctx = canvas.getContext("2d"),
         toBlur = new Image();
-        toBlur.src = "img/hero04.png";
+        toBlur.src = "img/hero01.jpg";
 
     function drawBlur() {
         var w = canvas.width,

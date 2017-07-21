@@ -667,7 +667,7 @@ p:not(:last-child)
 }
 
 #hero-1:before {
-    background: #1e4444 url(../img/hero04.png) no-repeat center center;
+    background: #1e4444 url(../img/hero01.jpg) no-repeat center center;
     background-size: cover;
 }
 
