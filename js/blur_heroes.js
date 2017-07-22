@@ -50,7 +50,7 @@ if ($('#blurry-about').length > 0) {
     function drawBlur() {
         var w = canva.width,
             h = canva.height;
-        ct.drawImage(toBlur4, 0, 0, w, h);
+        ct.drawImage(toBlu, 0, 0, w, h);
         stackBlurCanvasRGBA("blurry-about", 0, 0, w, h, 10);
     }
 
