@@ -41,6 +41,23 @@ if ($('#blurry-right').length > 0) {
                     stackBlurCanvasRGBA("blurry-right", 0, 0, w, h, 10);
                 }
 }
+if ($('#blurry-about').length > 0) { 
+    var canva = document.getElementById("blurry-about"),
+        ct = canva.getContext("2d"),
+        toBlu = new Image();
+        toBlu.src = "img/navbar.jpg";
+
+    function drawBlur() {
+        var w = canva.width,
+            h = canva.height;
+        ct.drawImage(toBlur4, 0, 0, w, h);
+        stackBlurCanvasRGBA("blurry-about", 0, 0, w, h, 10);
+    }
+
+    toBlu.onload = function() {
+        drawBlur();
+    }
+}
 if ($('#blurry-dl').length > 0) { 
     var canvas4 = document.getElementById("blurry-dl"),
         ctx4 = canvas4.getContext("2d"),

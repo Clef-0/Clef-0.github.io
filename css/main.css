@@ -504,7 +504,7 @@ p:not(:last-child)
 	color: #73d0da;
 }
 
-#blurry, #blurry-left, #blurry-right, #blurry-dl, #blurry-show1, #blurry-show2, #blurry-show3, #blurry-show4, #blurry-show5, #blurry-show6, #blurry-show8, #blurry-show9, #blurry-show10, #blurry-show11, #blurry-show12, #blurry-show13, #blurry-show14, #blurry-show15 {
+#blurry, #blurry-left, #blurry-right, #blurry-dl, #blurry-about, #blurry-show1, #blurry-show2, #blurry-show3, #blurry-show4, #blurry-show5, #blurry-show6, #blurry-show8, #blurry-show9, #blurry-show10, #blurry-show11, #blurry-show12, #blurry-show13, #blurry-show14, #blurry-show15 {
 	background-color: #292526;
     position: absolute;
     display: block;
@@ -513,11 +513,11 @@ p:not(:last-child)
     opacity: .75;
 }
 
-#blurry-dl, #blurry-show1, #blurry-show4 {
+#blurry-dl, #blurry-about, #blurry-show1, #blurry-show4 {
 	height: 470px;
 }
 
-.blurry-about#blurry-dl {
+.blurry-about#blurry-about {
 	height: 320px;
 }
 
