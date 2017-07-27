@@ -25,8 +25,18 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
+.innercontent .right a:link, .innercontent .right a:visited { 
+    color: rgba(255, 153, 0, 0.8);
+	text-decoration: none;
+}
+
 a:hover {
 	color: #37cccc;
+	text-decoration: none;
+}
+
+.innercontent .right a:hover {
+	color: rgba(255, 153, 0, 1);
 	text-decoration: none;
 }
 
@@ -319,6 +329,10 @@ p {
 	margin-bottom: 0px;
 }
 
+.innercontent .right h1 {
+	color: rgba(255, 153, 0, 0.9);
+}
+
 .innercontent h2 {
 }
 
@@ -364,7 +378,7 @@ p:not(:last-child)
 	color: #eeeeee;
     background: rgba(178, 212, 255,.05);
 	margin-bottom: 8px;
-    border-top: 2px solid rgba(53, 183, 183, 0.2);
+    border-top: 2px solid rgba(255, 153, 0, 0.4);
 }
 
 .innercontent>.left>div {
