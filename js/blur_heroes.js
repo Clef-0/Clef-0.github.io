@@ -8,7 +8,7 @@ if ($('#blurry').length > 0) {
         var w = canvas.width,
             h = canvas.height;
         ctx.drawImage(toBlur, 0, 0, w, h);
-        stackBlurCanvasRGBA("blurry", 0, 0, w, h, 10);
+        stackBlurCanvasRGBA("blurry", 0, 0, w, h, 5);
     }
 
     toBlur.onload = function() {

@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'denmarkregular';
+    src: url('../fonts/denmark-webfont.woff2') format('woff2'),
+         url('../fonts/denmark-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
@@ -664,6 +673,50 @@ p:not(:last-child)
     color: white;
     font-size: 32px;
 }
+
+#hero-1 .hero_text {
+	bottom: 266px;
+}
+
+#hero-1 .hero_blue {
+	text-align: left;
+	width: 50%;
+	font-size: 45px;
+	letter-spacing: 3px;
+	color: black;
+	font-family: 'denmarkregular';
+}
+
+#hero-1 .hero_name {
+	text-align: left;
+	width: 50%;
+	font-size: 30px;
+	font-weight: 300;
+	color: black;
+}
+
+#hero-overlay {
+	z-index: 9;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: .25s;
+    width: 100%;
+    height: 564px;
+    top: 70px;
+    background: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,1));
+    opacity: 0.8;
+    box-shadow: none;
+}
+
+#podium {
+	width: 50%;
+	float: right;
+	height: 100%;
+	background: transparent url(../img/podium.png) no-repeat center bottom;
+    background-size: contain;
+}
+
 .hero_tag {
     margin: 0px;
     color: white;
@@ -687,8 +740,19 @@ p:not(:last-child)
 }
 
 #hero-1:before {
-    background: #1e4444 url(../img/hero01.jpg) no-repeat center center;
-    background-size: cover;
+    display:none;
+}
+
+#hero-1:after {
+    display:none;
+}
+
+#hero-1 {
+	box-shadow: none !important;
+}
+
+#hero-1:hover {
+	cursor: inherit !important;
 }
 
 #hero-2:before {
@@ -936,6 +1000,19 @@ p:not(:last-child)
 
 @media screen and (max-width: 1219px)
 {
+	#hero-1 .hero_blue {
+	width: 100%;
+	text-align: center;
+}
+	#hero-1 .hero_name {
+	width: 100%;
+	text-align: center;
+}
+
+#podium {
+	display:none;
+}
+	
 .feature-1, .feature-2 {
     margin-bottom: 50px;
 }
