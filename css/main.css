@@ -676,6 +676,8 @@ p:not(:last-child)
 
 #hero-1 .hero_text {
 	bottom: 266px;
+	left: 2vw !important;
+	right: 2vw !important;
 }
 
 #hero-1 .hero_blue {
@@ -958,6 +960,7 @@ p:not(:last-child)
     vertical-align: top;
     text-align: center;
     line-height: 90px;
+	margin-bottom: 10px;
 }
 
 .feature-icon i {
@@ -977,6 +980,10 @@ p:not(:last-child)
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
+}
+
+.innerherowrap#fitninety {
+	width: 90% !important;
 }
 }
 
