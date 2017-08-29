@@ -61,26 +61,21 @@
 		overflow: hidden;
 		}
 	
-	.postmeta a { color: #365c7f; }
+	.postmeta a { }
 	
 	.postmeta p { padding: 5px 0; }
 	
 	.postmeta .posttime,
 	.postmeta .reblogged {
 		float: left;
-		margin-left: 10px;
-		padding-left: 18px;
+		padding-left: 32px;
 		}
 	
-	.postmeta .posttime { background: url(http://static.tumblr.com/2wjmz5y/zFwlauprl/simplethings-clock.png) no-repeat left center; padding-left: 18px; }
-	.postmeta .reblogged { background: url(http://static.tumblr.com/2wjmz5y/Jdhlapek1/simplethings-reblogged.png) no-repeat left center; }
-	
 	.postmeta .tags {
-		background: url(http://static.tumblr.com/2wjmz5y/RXDlap7z8/simplethings-tags.png) no-repeat 1px 7px;
 		clear: left;
 		float: left;
-		margin: -5px 10px 0;
-		padding-left: 18px;
+		margin: -5px 0 0;
+		padding-left: 32px;
 		}
 	
 	.postmeta .tags > a:after
@@ -94,12 +89,12 @@
 	
 	.postmeta .notes {
 		float: right;
-		margin-right: 10px;
+		padding-right: 32px;
 		}
 
 	.postmeta .disqus-count {
 		float: right;
-		margin-right: 10px;
+		padding-right: 32px;
 		}
 	
 	.postmeta .hiddentime { display: none !important; }
