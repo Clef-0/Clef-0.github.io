@@ -70,19 +70,28 @@
 	.postmeta .reblogged {
 		float: left;
 		margin-left: 10px;
-		padding-left: 16px;
+		padding-left: 18px;
 		}
 	
 	.postmeta .posttime { background: url(http://static.tumblr.com/2wjmz5y/zFwlauprl/simplethings-clock.png) no-repeat left center; padding-left: 18px; }
 	.postmeta .reblogged { background: url(http://static.tumblr.com/2wjmz5y/Jdhlapek1/simplethings-reblogged.png) no-repeat left center; }
 	
 	.postmeta .tags {
-		background: url(http://static.tumblr.com/2wjmz5y/RXDlap7z8/simplethings-tags.png) no-repeat 0 7px;
+		background: url(http://static.tumblr.com/2wjmz5y/RXDlap7z8/simplethings-tags.png) no-repeat 1px 7px;
 		clear: left;
 		float: left;
 		margin: -5px 10px 0;
-		padding-left: 16px;
+		padding-left: 18px;
 		}
+	
+	.postmeta .tags > a:after
+{
+  content: ', ';
+}
+.postmeta .tags > a:last-child:after
+{
+  content: '';
+}
 	
 	.postmeta .notes {
 		float: right;
