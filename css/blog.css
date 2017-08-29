@@ -55,11 +55,10 @@
 		}
 	
 	.postmeta {
-		background: #dee9f4;
-		color: #365c7f;
+		background: rgba(178,212,255,.05);
+		color: white;
 		min-height: 25px;
 		overflow: hidden;
-		text-shadow: 1px 1px #fff;
 		}
 	
 	.postmeta a { color: #365c7f; }
