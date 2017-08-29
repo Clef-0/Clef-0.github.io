@@ -63,7 +63,7 @@
 	
 	.postmeta a { }
 	
-	.postmeta p { padding: 5px 0; }
+	.postmeta p { padding: 10px 0; }
 	
 	.postmeta .posttime,
 	.postmeta .reblogged {
@@ -74,7 +74,7 @@
 	.postmeta .tags {
 		clear: left;
 		float: left;
-		margin: -5px 0 0;
+		margin: -10px 0 0;
 		padding-left: 32px;
 		}
 	
