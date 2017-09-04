@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600');
 
+/* Import the theme */
+
+@import url(http://themes.wikidot.com/local--files/monobook/monobook.css);
+
+/* Show a logo for the wiki */
+
+#header h1 a, #header h1 a:hover{
+    background-image:url(/local--files/start/wiki-logo-150.png);
+}
+
+#container{
+    background-image:url(http://monobook.wikidot.com/local--files/index/monobook-header.gif);
+}
+.member .error-block{
+display:none;
+}
+
 * {
     font-family: 'Nunito', sans-serif;
 }
