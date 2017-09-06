@@ -7,7 +7,7 @@
 /* Show a logo for the wiki */
 
 #header h1 a, #header h1 a:hover{
-    background-image:url(/local--files/start/wiki-logo-150.png);
+    background-image:url(http://wiki.eldewrito.com/local--files/start/wiki-logo-150.png);
 }
 
 #container{
