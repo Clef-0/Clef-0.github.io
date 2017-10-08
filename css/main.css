@@ -772,6 +772,11 @@ p:not(:last-child)
     background-size: cover;
 }
 
+#hero-99:before {
+    background: #1e4444 url(../img/navbar.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 #hero-show1:before {
     background: #1e4444 url(../img/hero05.jpg) no-repeat center center;
     background-size: cover;
