@@ -303,6 +303,7 @@ p {
 .herowrap {
 	width: 100%;
 	overflow: hidden;
+	height: 100%;
 }
 
 .herowrap.low .innerherowrap {
@@ -567,7 +568,6 @@ p:not(:last-child)
 }
 
 .hero, .hero-left, .hero-right, .hero-nm, .hero-about {
-    z-index: 9;
 	margin-top: 64px;
     height: 500px;
     position: relative;
@@ -648,7 +648,7 @@ p:not(:last-child)
 }
 
 .hero_text {
-    z-index: 10;
+    z-index: 11;
     position: absolute;
     left: 20px;
     right: 20px;
@@ -685,7 +685,7 @@ p:not(:last-child)
 	width: 50%;
 	font-size: 45px;
 	letter-spacing: 3px;
-	color: black;
+	color: white;
 	font-family: 'denmarkregular';
 }
 
@@ -694,7 +694,7 @@ p:not(:last-child)
 	width: 50%;
 	font-size: 30px;
 	font-weight: 300;
-	color: black;
+	color: white;
 }
 
 #hero-overlay {
@@ -706,7 +706,7 @@ p:not(:last-child)
     width: 100%;
     height: 564px;
     top: 70px;
-    background: linear-gradient(to bottom,rgba(255,255,255,0),#eeeeee);
+    background: linear-gradient(to bottom,rgba(255,255,255,0),#111519);
     opacity: 1;
     box-shadow: none;
 }

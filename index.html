@@ -54,14 +54,30 @@
 </ul>
 <div class="content">
 <div class="herowrap">
-<canvas id="blurry"></canvas>
+<div class="fullscreen-bg" style="
+    position: absolute;
+    width: 100%;
+    height: 634px;
+    overflow: hidden;
+">
+<video loop="" muted="" autoplay="" eq-attached="true" style="
+    position: relative;
+    min-width: 100vw;
+    min-height: 634px;
+    left: 50%;
+	top: 50%;
+    transform: translate(-50%,-50%);
+">
+			<source src="https://github.com/ElDewrito/menu/raw/master/video/reach/firefight.webm" type="video/webm">
+</video>
+</div>
 <div class="innerherowrap" id="fitninety">
 <div class="hero" id="hero-1">
 <div class="hero_text">
 <h1 class="hero_blue">ElDewrito</h1>
 <h1 class="hero_name">A Free Community-Driven Halo Experience</h1>
 </div>
-<div id="podium"></div>
+<!--<div id="podium"></div>-->
 </div>
 </div>
 <div id="hero-overlay"></div>
