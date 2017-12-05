@@ -411,8 +411,8 @@ p:not(:last-child)
   position: relative;
     z-index: 16;
 	width: 100%;
-	color: #121b16;
-	background-color: #eeeeee;
+    color: #eeeeee;
+    background-color: #18202a;
 }
 
 .center {
