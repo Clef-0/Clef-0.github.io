@@ -265,7 +265,7 @@ h1 {
 	font-size: 24px;
 	margin-top: 16px;
 	margin-bottom: 6px;
-    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(255,255,255,.2);
 }
 h1:first-child { margin-top: 0px !important; }
 h1:last-child { margin-bottom: 0px !important; }
@@ -456,7 +456,7 @@ p:not(:last-child)
 
 .innerseparator, .innerfooter, .innercenter {
     margin: auto;
-	padding: 30px 2vw;
+	padding: 60px 2vw;
     right: 0;
     left: 0;
     width: 90%;
@@ -492,7 +492,6 @@ p:not(:last-child)
 	margin-top: 16px;
     text-decoration: none;
     color: #319494;
-	border-top: 1px solid rgba(0,0,0,.1);
 	font-weight: 600;
 }
 
