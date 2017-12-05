@@ -489,7 +489,6 @@ p:not(:last-child)
     font-size: 15px;
     display: block;
     padding: 10px 0 0;
-	margin-top: 16px;
     text-decoration: none;
     color: #319494;
 	font-weight: 600;
