@@ -6,6 +6,10 @@
 		width: 100%;
 		color: rgba(220,220,220,1);
 		}
+		
+	.post b {
+		color: white;
+	}
 	
 	.postcontent {
 		padding: 32px;
