@@ -18,6 +18,10 @@
     backface-visibility: hidden;
 }
 
+strong, b {
+	font-weight: bold;
+}
+
 body {
     margin: 0;
     background: #111519;
