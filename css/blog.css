@@ -38,6 +38,24 @@
 		padding: 0;
 	}
 	
+	.postcontent>p {
+    font-size: 0;
+}
+
+	a.tumblr_blog:before {
+    font-size: 10pt;
+    content: "by ";
+    color: lightslategrey;
+}
+
+inspector-stylesheet:7
+a.tumblr_blog {
+    font-size: 10pt;
+    top: -9px;
+    left: 10px;
+    position: relative;
+}
+	
 	.post img { max-width: 500px; }
 	
 	.post ol {
@@ -52,9 +70,7 @@
 	.post ul li { padding: 3px 0; }
 	
 	.post blockquote {
-		border-left: 3px solid #ddd;
 		margin: 0 0 20px;
-		padding-left: 10px;
 		}
 	
 	.postmeta {
