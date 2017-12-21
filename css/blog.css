@@ -48,6 +48,13 @@
     color: lightslategrey;
 }
 
+a.tumblr_blog {
+    font-size: 10pt;
+    top: -9px;
+    left: 10px;
+    position: relative;
+}
+
 inspector-stylesheet:7
 a.tumblr_blog {
     font-size: 10pt;
