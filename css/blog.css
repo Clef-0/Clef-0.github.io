@@ -220,3 +220,7 @@ a.tumblr_blog {
 		}
 	
 	.answer p { padding: 0 0 15px; }
+	
+	#pagination .postcontent > *:not(:first-child):before {
+    content: "• ";
+	}
