@@ -223,4 +223,5 @@ a.tumblr_blog {
 	
 	#pagination .postcontent > *:not(:first-child):before {
     content: "• ";
+	color: #555;
 	}
