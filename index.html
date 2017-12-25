@@ -77,18 +77,22 @@
 <div class="hero_text">
 <h1 class="hero_blue">ElDewrito</h1>
 <h1 class="hero_name">A Free Community-Driven Halo Experience</h1>
+<div class="readout" style="padding-top: 14px;">
+<a href="download">
+<div class="readmore">Download <i class="fa fa-download"></i></div>
+</a>
+<br>
+
+</div>
 </div>
 <div id="podium" style="opacity: 0.5;"></div>
 </div>
 </div>
 <div id="hero-overlay"></div>
 </div>
-<div class="separator">
+<div class="separator updates">
 <div class="innerseparator">
-<h1>ElDewrito 0.5.1.1 (April 29th, 2016)</h1>
-<p>Adds support for Windows Vista and 4K/ultra-wide resolutions alongside various bug fixes.</p>
-<!--<p>Adds dual wielding, equipment, a CEF-based UI rewrite, UPnP and dedicated servers.</p>-->
-<div class="readmore"><a href="download">Download it now!</a></div>
+	
 </div>
 </div>
 <div class="contentwrap">
@@ -244,7 +248,7 @@ $('.drop:has(.pagelabel)>a').css({
     "line-height": "65px"
 });
 
-const url = 'https://www.reddit.com/r/HaloOnline.rss'
+var url = 'https://www.reddit.com/r/HaloOnline.rss'
 feednami.loadPolyfills(function() {
   feednami.load(url)
     .then(feed => {
@@ -265,6 +269,39 @@ feednami.loadPolyfills(function() {
 		div.innerHTML += ' ago by ';
 		div.innerHTML += `${entry.author}`;
         $('.innercontent > .left').get(0).appendChild(div);
+		}
+		i++;
+      }
+    })
+ })
+ 
+ <!--<a class="entry" href="http://west.paxsite.com" target="_null" style=""><div class="icon" style="background-image:url(https://installation01.org/img/calendar/PAX_West.jpg.webp)"></div><div class="text"><span class="date">SEP<b>01</b></span><span class="title">PAX West</span></div></a>-->
+ 
+url = 'http://blog.eldewrito.com/rss'
+feednami.loadPolyfills(function() {
+  feednami.load(url)
+    .then(feed => {
+      //console.log(feed)
+	  var i = 0;
+      for(let entry of feed.entries){
+	    if (i < 5)
+		{
+        var bentry = document.createElement('a');
+        var text = document.createElement('div');
+        var date = document.createElement('div');
+        var title = document.createElement('div');
+		bentry.className = 'entry';
+		text.className = 'text';
+		date.className = 'date';
+		title.className = 'title';
+		bentry.href = `${entry.link}`;
+		date.innerHTML += timeSince(`${entry.date}`);
+		date.innerHTML += ' ago';
+		title.innerHTML += `${entry.title}`;
+        text.appendChild(title);
+        text.appendChild(date);
+		bentry.appendChild(text);
+        $('.updates > .innerseparator').get(0).appendChild(bentry);
 		}
 		i++;
       }
