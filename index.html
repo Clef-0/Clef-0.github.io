@@ -249,36 +249,7 @@ $('.drop:has(.pagelabel)>a').css({
     "line-height": "65px"
 });
 
-var url = 'https://www.reddit.com/r/HaloOnline.rss'
-feednami.loadPolyfills(function() {
-  feednami.load(url)
-    .then(feed => {
-      //console.log(feed)
-	  var i = 0;
-      for(let entry of feed.entries){
-	    if (i < 7)
-		{
-        var div = document.createElement('div');
-        var h1 = document.createElement('h1');
-        var a = document.createElement('a');
-		a.href = `${entry.link}`;
-		a.innerHTML += `${entry.title}`;
-        h1.appendChild(a);
-        div.appendChild(h1);
-		div.innerHTML += 'submitted ';
-		div.innerHTML += timeSince(`${entry.date}`);
-		div.innerHTML += ' ago by ';
-		div.innerHTML += `${entry.author}`;
-        $('.innercontent > .left').get(0).appendChild(div);
-		}
-		i++;
-      }
-    })
- })
- 
- <!--<a class="entry" href="http://west.paxsite.com" target="_null" style=""><div class="icon" style="background-image:url(https://installation01.org/img/calendar/PAX_West.jpg.webp)"></div><div class="text"><span class="date">SEP<b>01</b></span><span class="title">PAX West</span></div></a>-->
- 
-url = 'http://blog.eldewrito.com/rss'
+var url = 'http://blog.eldewrito.com/rss'
 feednami.loadPolyfills(function() {
   feednami.load(url)
     .then(feed => {
@@ -308,6 +279,36 @@ feednami.loadPolyfills(function() {
       }
     })
  })
+ 
+url = 'https://www.reddit.com/r/HaloOnline.rss'
+feednami.loadPolyfills(function() {
+  feednami.load(url)
+    .then(feed => {
+      //console.log(feed)
+	  var i = 0;
+      for(let entry of feed.entries){
+	    if (i < 7)
+		{
+        var div = document.createElement('div');
+        var h1 = document.createElement('h1');
+        var a = document.createElement('a');
+		a.href = `${entry.link}`;
+		a.innerHTML += `${entry.title}`;
+        h1.appendChild(a);
+        div.appendChild(h1);
+		div.innerHTML += 'submitted ';
+		div.innerHTML += timeSince(`${entry.date}`);
+		div.innerHTML += ' ago by ';
+		div.innerHTML += `${entry.author}`;
+        $('.innercontent > .left').get(0).appendChild(div);
+		}
+		i++;
+      }
+    })
+ })
+ 
+ <!--<a class="entry" href="http://west.paxsite.com" target="_null" style=""><div class="icon" style="background-image:url(https://installation01.org/img/calendar/PAX_West.jpg.webp)"></div><div class="text"><span class="date">SEP<b>01</b></span><span class="title">PAX West</span></div></a>-->
+ 
 </script>
 <script type="text/javascript" src="/js/blur_heroes.js"></script>
 </body>
