@@ -7,7 +7,6 @@
 	
 	$(".iframe-controls--desktop").css('bottom', '0');
 	$(".iframe-controls--desktop").css('top', 'auto');
-}
 	
 	// fade in .navbar
 	$(function () {
