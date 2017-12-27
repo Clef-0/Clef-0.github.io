@@ -2,8 +2,8 @@
   $(document).ready(function(){
     
 	// hide .navbar first
+	$(".navbarbg").css('opacity', '1');
 	$(".navbarbg").hide();
-	$(".navbarbg").css('display', 'block');
 	
 	// fade in .navbar
 	$(function () {
