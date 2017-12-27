@@ -4,7 +4,7 @@
 	// hide .navbar first
 	$(".navbarbg").css('opacity', '1');
 	$(".navbarbg").hide();
-	
+
 	// fade in .navbar
 	$(function () {
 		$(window).scroll(function () {
