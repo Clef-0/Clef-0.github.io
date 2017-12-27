@@ -631,7 +631,6 @@ p:not(:last-child)
 
 .hero-about .innercenter {
 	padding: 0;
-	margin: auto 0px;
 	width: 100%;
 	height: 100%;
 }
