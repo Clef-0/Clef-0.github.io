@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=500">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/jdenticon@1.7.2"></script>
 <script type="text/javascript" src="/js/feednami.js"></script>
 <link rel="stylesheet" href="css/main.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -249,6 +250,11 @@ $('.drop:has(.pagelabel)>a').css({
     "line-height": "65px"
 });
 
+String.prototype.replaceAll = function(search, replacement) {
+    var target = this;
+    return target.replace(new RegExp(search, 'g'), replacement);
+};
+
 var url = 'http://blog.eldewrito.com/rss'
 feednami.loadPolyfills(function() {
   feednami.load(url)
@@ -259,20 +265,25 @@ feednami.loadPolyfills(function() {
 	    if (i < 4)
 		{
         var bentry = document.createElement('a');
+		var icowrap = document.createElement('div');
         var text = document.createElement('div');
         var date = document.createElement('div');
         var title = document.createElement('div');
+		var titlestr = `${entry.title}`;
+		icowrap.className = 'icowrap';
 		bentry.className = 'entry';
 		text.className = 'text';
 		date.className = 'date';
 		title.className = 'title';
+		icowrap.style.backgroundImage = "url('https://identicon-api.herokuapp.com/" + titlestr.replaceAll('\/', '-') + "/30?format=png')";
 		bentry.href = `${entry.link}`;
 		date.innerHTML += timeSince(`${entry.date}`);
 		date.innerHTML += ' ago';
 		title.innerHTML += `${entry.title}`;
         text.appendChild(title);
         text.appendChild(date);
-		bentry.appendChild(text);
+		icowrap.appendChild(text);
+		bentry.appendChild(icowrap);
         $('.updates > .innerseparator').get(0).appendChild(bentry);
 		}
 		i++;
@@ -306,8 +317,6 @@ feednami.loadPolyfills(function() {
       }
     })
  })
- 
- <!--<a class="entry" href="http://west.paxsite.com" target="_null" style=""><div class="icon" style="background-image:url(https://installation01.org/img/calendar/PAX_West.jpg.webp)"></div><div class="text"><span class="date">SEP<b>01</b></span><span class="title">PAX West</span></div></a>-->
  
 </script>
 <script type="text/javascript" src="/js/blur_heroes.js"></script>
