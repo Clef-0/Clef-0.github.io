@@ -106,7 +106,7 @@ li {
     height: 70px;
 }
 
-.navbar>li>div:first-child {
+.navbar>li>a,.navbar>li>div:first-child {
     font-size: 16px;
     line-height: 72px;
     position: relative;
