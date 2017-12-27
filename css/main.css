@@ -326,6 +326,10 @@ p {
     padding-top: 70px;
 }
 
+#aboutinner {
+	padding-top: 0px;
+}
+
 .innercontent {
 	overflow: hidden;
 	margin: 40px auto;
@@ -552,7 +556,7 @@ p:not(:last-child)
 }
 
 .blurry-about#blurry-about {
-	height: 320px;
+	height: 250px;
 }
 
 #blurry-left, #blurry-show2, #blurry-show5, #blurry-show8, #blurry-show10, #blurry-show12, #blurry-show14 {
@@ -638,7 +642,7 @@ p:not(:last-child)
 .hero-about .innercenter h1 {
 	position: relative;
     top: 50%;
-    transform: translateY(-100%);
+    transform: translateY(-50%);
 	margin-right: -20px;
 }
 
