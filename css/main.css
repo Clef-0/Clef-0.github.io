@@ -639,7 +639,7 @@ p:not(:last-child)
 .hero-about .innercenter h1 {
 	position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
 	margin-right: -20px;
 }
 
