@@ -54,6 +54,7 @@ a:hover {
 }
 
 .navbarbg {
+	display: none;
     position: fixed;
     z-index: 89;
     top: 0;

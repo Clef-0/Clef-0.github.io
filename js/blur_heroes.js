@@ -3,6 +3,7 @@
     
 	// hide .navbar first
 	$(".navbarbg").hide();
+	$(".navbarbg").css('display', 'block');
 	
 	// fade in .navbar
 	$(function () {
