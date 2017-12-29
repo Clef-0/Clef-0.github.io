@@ -121,6 +121,10 @@ li {
     color: rgba(255,255,255,.8);
 }
 
+.navbar>li>div:first-child {
+	cursor: default;
+}
+
 .navbar>li.logo {
     width: calc(50px + 4vw);
     background-image: url(../img/logo-ny.png);
