@@ -3,6 +3,7 @@
 <!-- Made by Clef - no stealing :^) -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=500">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600" rel="stylesheet">
 <link rel="stylesheet" href="css/main.css">
@@ -21,14 +22,14 @@
 <a href="/"></a>
 </li>
 <li class="drop right">
-<a href="fmm">FMM</a>
+<div>FMM</div>
 <div class="dropdown">
 <a href="fmm">Download</a>
 <a href="fmmmods">Mod Showcase</a>
 </div>
 </li>
 <li class="drop right">
-<a href="#">Community</a>
+<div>Community</div>
 <div class="dropdown">
 <a href="https://www.reddit.com/r/HaloOnline/wiki/index">Community Wiki</a>
 <a href="https://discord.gg/halo">Discord</a>
@@ -39,9 +40,9 @@
 </div>
 </li>
 <li class="drop right">
-<a href="about">ElDewrito
+<div>ElDewrito
 <span class="pagelabel">About</span>
-</a>
+</div>
 <div class="dropdown">
 <a href="about">About</a>
 <a href="http://blog.eldewrito.com/">Blog</a>
@@ -52,25 +53,26 @@
 </li>
 </ul>
 <div class="content">
-<div class="herowrap">
-<canvas class="blurry-about" id="blurry-about"></canvas>
-<div class="innerherowrap">
-<div class="hero-about">
+<div class="herowrap" style="
+    background: #111519 url(img/navbar.jpg) no-repeat center top;
+    background-size: cover;
+">
+<div class="innerherowrap" id="aboutinner">
+<div class="hero-about" style="letter-spacing:inherit">
 <div class="hero_text overlay">
 <div class="innercenter">
-<h1 style="font-family:'denmarkregular'">ELDEWRITO</h1>
+<h1 style="margin:0;font-weight:200">About ElDewrito</h1>
 </div>
 </div>
 </div>
 </div>
+    <div id="hero-overlay" style="
+    height: 250px;
+"></div>
 </div>
 <div class="contentwrap">
-<div class="innercenter thin">
-<h1>About ElDewrito</h1>
-</div>
 <div class="innercontent notop about">
 <div class="left">
-<h2 class="header">Meet the Team</h2>
 <div style="overflow:hidden;">
 <div class="teamouter">
 <div class="teamtext">
@@ -101,15 +103,6 @@
 <div style="overflow:hidden;">
 <div class="teamouter">
 <div class="teamtext">
-<h1>Bivi</h1>
-<p>Team Member</p>
-</div>
-<img style="float:right" src="/img/dev_bivi.png"></img>
-</div>
-</div>
-<div style="overflow:hidden;">
-<div class="teamouter">
-<div class="teamtext">
 <h1>Camden</h1>
 <p>Team Member</p>
 </div>
@@ -132,15 +125,6 @@
 <p>Team Member</p>
 </div>
 <img style="float:right" src="/img/dev_gc.png"></img>
-</div>
-</div>
-<div style="overflow:hidden;">
-<div class="teamouter">
-<div class="teamtext">
-<h1>kornman00</h1>
-<p>Team Member</p>
-</div>
-<img style="float:right" src="/img/dev_korn.png"></img>
 </div>
 </div>
 <div style="overflow:hidden;">
@@ -361,7 +345,7 @@ Maintained by Clef
 <div class="footerbar"></div>
 </div>
 <script type="text/javascript">
-$('.drop:has(.pagelabel)>a').css({
+$('.drop:has(.pagelabel)>div').css({
     "-webkit-animation": "slideup 1s",
     "-moz-animation": "slideup 1s",
     "-ms-animation": "slideup 1s",
