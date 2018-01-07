@@ -127,7 +127,7 @@ li {
 
 .navbar>li.logo {
     width: calc(50px + 4vw);
-    background-image: url(../img/logo-ny.png);
+    background-image: url(../img/logo-white.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto 50px;
@@ -151,6 +151,10 @@ li {
     opacity: 0;
     box-shadow: 0 5px 10px -2px rgba(0,0,0,.25);
     pointer-events: none;
+}
+
+.navbar .dropdown.user {
+	width: 300px;
 }
 
 .navbar .right .dropdown {
@@ -269,6 +273,69 @@ li {
 .navbar .dropdown>a:hover {
     background-color: #e5e5e5;
     color: #1e4444;
+}
+
+.navbar .dropdown>.usercard {
+    font-size: 14px;
+    line-height: 16px;
+    position: relative;
+    box-sizing: border-box;
+    min-width: 100%;
+    padding: 18px 18px;
+    transition: .25s;
+    text-decoration: none;
+    text-transform: none;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    background: #14171b;
+    color: #f5f5f5;
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar .dropdown>.usercard .useremblem {
+    width:48px;
+	height:48px;
+}
+
+.navbar .dropdown>.usercard .userrank {
+    height: 20px;
+    margin-right: 4px;
+    position: relative;
+    top: -2px;
+}
+
+.navbar .dropdown>.usercard .details {
+	padding-left: 8px;
+	flex: 1 0;
+}
+
+.navbar .dropdown>.usercard .details>.bar {
+    width: 100%;
+    height: 4px;
+    margin-top: 4px;
+    background: rgba(255,255,255,0.05);
+}
+.navbar .dropdown>.usercard .details>.bar>div {
+    height: 100%;
+    background: #35b7b7;
+}
+
+.navbar .dropdown>.usercard span
+{
+	display: block;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-top: 4px;
+}
+
+
+.navbar .dropdown>.usercard .name
+{
+	font-weight: 600;
+	font-size: 16px;
+	text-transform: none;
+	margin-top: 0px;
 }
 
 h1 {
@@ -442,7 +509,7 @@ p:not(:last-child)
 	width: 100%;
 	color: #eeeeee;
 	background-color: #14191e;
-	text-align: center;
+	text-align: left;
 }
 .footer > .innerfooter > h1 {
 	font-weight: 200;
@@ -453,6 +520,7 @@ p:not(:last-child)
 	font-weight: 300;
 	font-size: 13px;
 	margin-top: 4px;
+	color: #999999;
 }
 
 .footerbar {
@@ -460,6 +528,7 @@ p:not(:last-child)
 	width: 100%;
 	background: #dfd0a5 url(../img/footerborder.png) no-repeat center center;
     background-size: cover;
+	filter: hue-rotate(120deg);
 }
 
 .innercontent .header
