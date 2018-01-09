@@ -1,3 +1,12 @@
+//var quotearray = [
+//    'One by one, million by million, in the prescience of dawn, every leaf in that part of the world was moved.', // james agee
+//    'Do anything, but let it produce joy.', // walt whitman
+//    'I am not responsible for anything the moon does this month.' // steve roggenbuck
+//];
+//var randindex = Math.floor(Math.random()*quotearray.length);
+
+//document.getElementById("footquote").innerHTML = quotearray[randindex];
+
 (function ($) {
   $(document).ready(function(){
     

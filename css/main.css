@@ -1012,10 +1012,11 @@ p:not(:last-child)
 }
 
 .imagevideo {
-	background: transparent url(https://img.youtube.com/vi/-gr1cR0bRy0/mqdefault.jpg) no-repeat center center;
+	background: transparent url(../img/montage.jpg) no-repeat center center;
     background-size: cover;
 	width: 100%;
 	height: 100%;
+	transform: scale(1.01);
 }
 
 .imagevideo:hover {
