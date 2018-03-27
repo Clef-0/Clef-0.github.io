@@ -22,11 +22,12 @@
 		}
 
         .post h1, .post h2 {
-                font-size:18px;
+			color: white;
                 padding:0 0 15px;
                 }
 
-        .post h2 {font-size:16px}
+        .post h1 {font-size:22px}
+        .post h2 {font-size:20px}
 	
 	.post p {
                 line-height: 1.5em;
