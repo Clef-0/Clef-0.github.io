@@ -63,7 +63,7 @@ a.tumblr_blog {
     position: relative;
 }
 	
-	.post img { max-width: 500px; }
+	.post img { max-width: 100%; }
 	
 	.post ol {
 		list-style: decimal;
