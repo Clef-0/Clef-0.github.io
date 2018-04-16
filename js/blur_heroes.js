@@ -214,7 +214,7 @@ if ($('#blurry-show8').length > 0) {
     var canvas11 = document.getElementById("blurry-show8"),
         ctx11 = canvas11.getContext("2d"),
         toBlur11 = new Image();
-        toBlur11.src = "https://eldewrito.com/img/scr01.jpg";
+        toBlur11.src = "https://eldewrito.com/img/scr16.jpg";
 
     function drawBlur() {
         var w = canvas11.width,
@@ -231,7 +231,7 @@ if ($('#blurry-show9').length > 0) {
     var canvas12 = document.getElementById("blurry-show9"),
         ctx12 = canvas12.getContext("2d"),
         toBlur12 = new Image();
-        toBlur12.src = "https://eldewrito.com/img/scr02.jpg";
+        toBlur12.src = "https://eldewrito.com/img/scr11.jpg";
 
     function drawBlur() {
         var w = canvas12.width,
@@ -248,7 +248,7 @@ if ($('#blurry-show10').length > 0) {
     var canvas13 = document.getElementById("blurry-show10"),
         ctx13 = canvas13.getContext("2d"),
         toBlur13 = new Image();
-        toBlur13.src = "https://eldewrito.com/img/scr03.jpg";
+        toBlur13.src = "https://eldewrito.com/img/scr13.jpg";
 
     function drawBlur() {
         var w = canvas13.width,
@@ -265,7 +265,7 @@ if ($('#blurry-show11').length > 0) {
     var canvas14 = document.getElementById("blurry-show11"),
         ctx14 = canvas14.getContext("2d"),
         toBlur14 = new Image();
-        toBlur14.src = "https://eldewrito.com/img/scr04.jpg";
+        toBlur14.src = "https://eldewrito.com/img/scr12.jpg";
 
     function drawBlur() {
         var w = canvas14.width,
@@ -282,7 +282,7 @@ if ($('#blurry-show12').length > 0) {
     var canvas15 = document.getElementById("blurry-show12"),
         ctx15 = canvas15.getContext("2d"),
         toBlur15 = new Image();
-        toBlur15.src = "https://eldewrito.com/img/scr05.jpg";
+        toBlur15.src = "https://eldewrito.com/img/scr14.jpg";
 
     function drawBlur() {
         var w = canvas15.width,
@@ -299,7 +299,7 @@ if ($('#blurry-show13').length > 0) {
     var canvas16 = document.getElementById("blurry-show13"),
         ctx16 = canvas16.getContext("2d"),
         toBlur16 = new Image();
-        toBlur16.src = "https://eldewrito.com/img/scr06.jpg";
+        toBlur16.src = "https://eldewrito.com/img/scr10.jpg";
 
     function drawBlur() {
         var w = canvas16.width,
@@ -316,7 +316,7 @@ if ($('#blurry-show14').length > 0) {
     var canvas17 = document.getElementById("blurry-show14"),
         ctx17 = canvas17.getContext("2d"),
         toBlur17 = new Image();
-        toBlur17.src = "https://eldewrito.com/img/scr07.jpg";
+        toBlur17.src = "https://eldewrito.com/img/scr15.jpg";
 
     function drawBlur() {
         var w = canvas17.width,
