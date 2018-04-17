@@ -941,6 +941,7 @@ p:not(:last-child)
 	height: 32px;
 	width: 334px;
 	background: transparent url(../img/logo-text.png);
+	background-repeat: no-repeat;
 	background-size: contain;
 	
 }
