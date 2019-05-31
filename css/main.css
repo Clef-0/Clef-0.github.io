@@ -600,8 +600,9 @@ p:not(:last-child)
 }
 
 .innercenter .readmore:hover, .innerherowrap .readmore:hover {
-    border: 2px solid #73d0da;
-	color: #73d0da;
+    border: 2px solid #35b7b7ba;
+	color: #fff;
+	background-color: #35b7b736;
 }
 
 .innercenter .readsmall:hover {
