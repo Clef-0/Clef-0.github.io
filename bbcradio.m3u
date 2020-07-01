@@ -1,22 +1,22 @@
 #EXTM3U
 #EXTINF:-1,[*R1] BBC Radio 1
-http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p.m3u
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p
 #EXTINF:-1,[*R1X] BBC Radio 1Xtra
-http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1xtra_mf_p.m3u
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1xtra_mf_p
 #EXTINF:-1,[*R2] BBC Radio 2
-http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_p.m3u
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_p
 #EXTINF:-1,[*R3] BBC Radio 3
-http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p.m3u
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
 #EXTINF:-1,[*R4] BBC Radio 4 FM
-http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p.m3u
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
 #EXTINF:-1,[*R4L] BBC Radio 4 LW
-http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4lw_mf_p.m3u
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4lw_mf_p
 #EXTINF:-1,[*R4X] BBC Radio 4 Extra
-http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4extra_mf_p.m3u
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4extra_mf_p
 #EXTINF:-1,[*R5] BBC Radio 5 Live
-http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p.m3u
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p
 #EXTINF:-1,[*R5X] BBC Radio 5 Live Sports Extra
-http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5extra_mf_p.m3u
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5extra_mf_p
 #EXTINF:-1,[*R6] BBC Radio 6 Music
-http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p.m3u
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p
 #EXTM3U
