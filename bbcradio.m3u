@@ -16,7 +16,7 @@ http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4extra_mf_p
 #EXTINF:-1,[*R5] BBC Radio 5 Live
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p
 #EXTINF:-1,[*R5X] BBC Radio 5 Live Sports Extra
-http://open.live.bbc.co.uk/mediaselector/5/redir/version/2.0/mediaset/http-icy-mp3-a-stream/proto/http/vpid/bbc_radio_five_live_sports_extra
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_five_live_sports_extra.m3u8
 #EXTINF:-1,[*R6] BBC Radio 6 Music
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p
 #EXTM3U
